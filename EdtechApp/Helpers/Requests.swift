@@ -45,7 +45,7 @@ func request(route: String, method: String, data: [String: String], completion: 
     request.httpMethod = method
     request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
     request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Accept")
-    request.setValue( "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IndlYnVkdmlrbGVyZW5ka0BnbWFpbC5jb20iLCJuYmYiOjE2MjMwNTU2NzcsImV4cCI6MTYyMzA5ODg3NywiaWF0IjoxNjIzMDU1Njc3fQ.4X8mZL3ImiM8yEdOFyhnQOB9uIJFZ00vm7V6IJNduZg", forHTTPHeaderField: "Authorization")
+    request.setValue( "", forHTTPHeaderField: "Authorization")
      
     if method == "POST" {
         do {
