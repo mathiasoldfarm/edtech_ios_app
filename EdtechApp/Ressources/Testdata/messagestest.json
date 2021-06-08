@@ -1,0 +1,170 @@
+[
+  {
+    "section": {
+        "id": 2,
+        "name": "Welcome",
+        "quiz": null,
+        "description": {
+            "id": 2,
+            "levels": [
+                {
+                    "id": 2,
+                    "description": "Hej <name>, nu skal vi l?re lidt om br?ker. Er du klar?",
+                    "level": 1,
+                    "category": null
+                }
+            ]
+        },
+        "parent": 0
+    },
+    "courseId": 10,
+    "contextId": 1,
+    "answer": "",
+    "historyId": 643,
+    "nextPossibleAnswers": [
+        "Sure, Let's go!"
+    ],
+    "sectionDone": -1
+  },
+  {
+    "section": {
+        "id": 3,
+        "name": "Delen af det hele",
+        "quiz": null,
+        "description": {
+            "id": 3,
+            "levels": [
+                {
+                    "id": 3,
+                    "description": "Level 1N?r man skal finde en br?kdel af en st?rrelse, s? svarer det til at gange br?ken med st?rrelsen.En opgave kunne lyde: En flagstang er 16 m h?j. Et tr? udg?r <latex>\\frac{3}{8}</latex> af flagstangens h?jde. Hvor h?jt er tr?et? Vi skal alts? finde ud af, hvor meget <latex>\\frac{3}{8}</latex> (tre ottendedele) af 16 m er.<latex>\\frac{3}{8}*16</latex> m <latex>=\\frac{3*16}{8}</latex> m <latex>=\\frac{48}{8}</latex> m <latex>=6</latex> m.En anden opgave kunne lyde: Hvor mange minutter er <latex>\\frac{5}{8}</latex> af en time?Der er som bekendt 60 minutter p? en time. Vi skal alts? finde <latex>\\frac{5}{8}</latex> af 60 minutter.<latex>\\frac{5}{8}*60</latex> min. <latex>=\\frac{5*60}{8}</latex> min. <latex>=\\frac{300}{8}</latex> min.Den sidste br?k kan vi forkorte med 4 (da 4 b?de g?r op i 300 og i 8), og s? f?r vi<latex>\\frac{5}{8}</latex> af en time svarer alts? til 37,5 minutter.",
+                    "level": 1,
+                    "category": null
+                }
+            ]
+        },
+        "parent": 5
+    },
+    "courseId": 10,
+    "contextId": 2,
+    "answer": "Good, start by reading this text:",
+    "historyId": 643,
+    "nextPossibleAnswers": [
+        "I understand this", "I do not understand this"
+    ],
+    "sectionDone": 2
+  },
+  {
+    "section": {
+        "id": 4,
+        "name": "Repr?sentere helt tal som en br?k",
+        "quiz": null,
+        "description": {
+            "id": 4,
+            "levels": [
+                {
+                    "id": 4,
+                    "description": "Level 2Senere vil vi se hvorfor det er nyttigt at kunne omskrive et helt tal, f.eks. 24, 13, 99 etc. som en br?k. Hvis man har et tal f.eks. 24, og gerne vil repr?sentere det som et helt tal s? g?r man det p? f?lgende m?de:Du v?lger et tilf?ldigt tal som du ?nsker at have i n?vneren p? din br?k. Lad os kalde dette tal <latex>\\textbf{k}</latex>. I t?lleren s?tter du det tal som du ?nsker at repr?sentere, ganget med <latex>\\textbf{k}</latex>.F.eks.?nsker vi at repr?sentere tallet 24 som en br?k kan vi g?re det p? f?lgende m?de:Vi v?lger <latex>\\textbf{k}</latex> som tallet 7, og br?ken ser derfor s?dan ud: <latex>\\frac{7*24}{7} = \\frac{168}{7} = 24</latex>.Vi v?lger <latex>\\textbf{k}</latex> som tallet 4, og br?ken ser derfor s?dan ud: <latex>\\frac{4*24}{4} = \\frac{96}{4} = 24</latex>.Som et andet eksempel kan vi ?nske at repr?sentere tallet 5 som en br?k. Det kan g?res p? f?lgende m?de:Vi v?lger <latex>\\textbf{k}</latex> som tallet 2, og br?ken ser derfor s?dan ud: <latex>\\frac{2*5}{2} = \\frac{10}{2} = 5</latex>.Vi v?lger <latex>\\textbf{k}</latex> som tallet 8, og br?ken ser derfor s?dan ud: <latex>\\frac{8*5}{8} = \\frac{40}{8} = 5</latex>.Generelt kan formlen skrives som:<latex>\\frac{a*b}{b} = a</latex>",
+                    "level": 1,
+                    "category": null
+                }
+            ]
+        },
+        "parent": 5
+    },
+    "courseId": 10,
+    "contextId": 3,
+    "answer": "Perfect let's move on",
+    "historyId": 643,
+    "nextPossibleAnswers": [
+        "I understand this", "I do not understand this"
+    ],
+    "sectionDone": 3
+  },
+  {
+    "section": {
+        "id": 5,
+        "name": "Quiz om hvad en br?k er",
+        "quiz": {
+            "id": 0,
+            "levels": [
+                {
+                    "id": 0,
+                    "level": 1,
+                    "questions": [
+                        {
+                            "id": 0,
+                            "question": "Hvis en kage deles op i 5 lige store dele, og der spises 2 stykker, hvor meget er s? tilbage?",
+                            "correct": {
+                                "id": 2,
+                                "answer": "3/5",
+                                "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
+                            },
+                            "possibleAnswers": [
+                                {
+                                    "id": 0,
+                                    "answer": "2/5",
+                                    "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 2/5 dele tilbage. Du mangel nemlig 1/5 s?, fordi 1/5 + 2/5 + 2/5 (dem der spises) = 5/5 = hele."
+                                },
+                                {
+                                    "id": 1,
+                                    "answer": "1 femtedel",
+                                    "explanation": "Hvis der spises 2 stykker af de 5 lige store dele, s? er der mere end 1 femtedel tilbage. Du mangel nemlig 2 femtedele s?, fordi 1 femtedel + 2 femtedele + 2 femtedele (dem der spises) = 1 hel = hele kagen"
+                                },
+                                {
+                                    "id": 2,
+                                    "answer": "3/5",
+                                    "explanation": "Korrekt! Hvis der spises 2 stykker af de 5 lige store dele, s? er der 3 lige store dele tilbage, alts? 3/5."
+                                },
+                                {
+                                    "id": 3,
+                                    "answer": "4 halve",
+                                    "explanation": "4 halve er det samme som 2 hele. Der var kun tale om 1 hel kage, s? hvis der spises 2 stykker af kagen, kan der ikke komme yderligere stykker. "
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1,
+                            "question": "Hvor stor en br?kdel repr?senterer \"mandag\" af alle ugens dage?",
+                            "correct": {
+                                "id": 5,
+                                "answer": "1/7",
+                                "explanation": "Korrekt. Fordi der er 7 dage i ugen, s? repr?senterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                            },
+                            "possibleAnswers": [
+                                {
+                                    "id": 4,
+                                    "answer": "1/4",
+                                    "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/4. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag og torsdag, s? ville svaret v?re korrekt."
+                                },
+                                {
+                                    "id": 5,
+                                    "answer": "1/7",
+                                    "explanation": "Korrekt. Fordi der er 7 dage i ugen, s? repr?senterer den ene dag mandag, nemlig 1/7 af alle ugens dage. "
+                                },
+                                {
+                                    "id": 6,
+                                    "answer": "1/2",
+                                    "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/2. Hvis alle ugens dage kun bestod af mandag og tirsdag, s? ville svaret v?re korrekt."
+                                },
+                                {
+                                    "id": 7,
+                                    "answer": "1/5",
+                                    "explanation": "Der er 7 dage p? ugen. Mandag repr?senterer alts? ikke 1/5. Hvis alle ugens dage kun bestod af mandag, tirsdag, onsdag, torsdag og fredag, s? ville svaret v?re korrekt."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "description": null,
+        "parent": 9
+    },
+    "courseId": 10,
+    "contextId": 4,
+    "answer": "Perfect let's move on",
+    "historyId": 643,
+    "nextPossibleAnswers": null,
+    "sectionDone": 4
+  }
+]

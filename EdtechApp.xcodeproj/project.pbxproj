@@ -3,16 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8918DF5F265A9059009BD3CF /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918DF5E265A9059009BD3CF /* Signup.swift */; };
+		8918DF61265A9084009BD3CF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918DF60265A9084009BD3CF /* Login.swift */; };
+		8918DF64265A90B5009BD3CF /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918DF63265A90B5009BD3CF /* Page.swift */; };
+		8918DF66265F6020009BD3CF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918DF65265F6020009BD3CF /* Course.swift */; };
+		8918DF69265F65C1009BD3CF /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8918DF68265F65C1009BD3CF /* Spinner.swift */; };
+		8996C886266E7E580047B527 /* UserContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C885266E7E570047B527 /* UserContent.swift */; };
+		8996C88A266E81BE0047B527 /* subjects.json in Resources */ = {isa = PBXBuildFile; fileRef = 8996C889266E81BE0047B527 /* subjects.json */; };
+		8996C88C266E821D0047B527 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C88B266E821D0047B527 /* Subject.swift */; };
+		8996C88E266E823D0047B527 /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996C88D266E823D0047B527 /* Subjects.swift */; };
 		89BA12B1265641CA00066AA7 /* EdtechAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12B0265641CA00066AA7 /* EdtechAppApp.swift */; };
 		89BA12B3265641CA00066AA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12B2265641CA00066AA7 /* ContentView.swift */; };
 		89BA12B5265641CD00066AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BA12B4265641CD00066AA7 /* Assets.xcassets */; };
 		89BA12B8265641CD00066AA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BA12B7265641CD00066AA7 /* Preview Assets.xcassets */; };
 		89BA12C3265641CD00066AA7 /* EdtechAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12C2265641CD00066AA7 /* EdtechAppTests.swift */; };
 		89BA12CE265641CD00066AA7 /* EdtechAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12CD265641CD00066AA7 /* EdtechAppUITests.swift */; };
+		89BA12E22656896700066AA7 /* SignupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12E12656896700066AA7 /* SignupForm.swift */; };
+		89BA12E52656AE1400066AA7 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12E42656AE1400066AA7 /* Welcome.swift */; };
+		89BA12E72656B2A300066AA7 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA12E62656B2A300066AA7 /* extensions.swift */; };
+		89EED140265FAFF40079CAEF /* coursetest.json in Resources */ = {isa = PBXBuildFile; fileRef = 89EED13F265FAFF40079CAEF /* coursetest.json */; };
+		89EED143265FB20D0079CAEF /* CourseMenuItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EED142265FB20D0079CAEF /* CourseMenuItemData.swift */; };
+		89F26159265FD8A900EC3B33 /* CourseMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F26158265FD8A900EC3B33 /* CourseMenuItem.swift */; };
+		89F2615C265FE16500EC3B33 /* FASwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 89F2615B265FE16500EC3B33 /* FASwiftUI */; };
+		89F2615F265FE19400EC3B33 /* icons.json in Resources */ = {isa = PBXBuildFile; fileRef = 89F2615E265FE19400EC3B33 /* icons.json */; };
+		89F26163265FE1D400EC3B33 /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89F26160265FE1D400EC3B33 /* Font Awesome 5 Brands-Regular-400.otf */; };
+		89F26164265FE1D400EC3B33 /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89F26161265FE1D400EC3B33 /* Font Awesome 5 Free-Regular-400.otf */; };
+		89F26165265FE1D400EC3B33 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 89F26162265FE1D400EC3B33 /* Font Awesome 5 Free-Solid-900.otf */; };
+		89F26167265FE71C00EC3B33 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F26166265FE71C00EC3B33 /* Loader.swift */; };
+		89F26169265FEA6D00EC3B33 /* CourseMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F26168265FEA6D00EC3B33 /* CourseMenu.swift */; };
+		89F2616B26651BAB00EC3B33 /* CourseSectionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2616A26651BAB00EC3B33 /* CourseSectionsMenu.swift */; };
+		89F26170266523C900EC3B33 /* WrappingStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2616F266523C900EC3B33 /* WrappingStack.swift */; };
+		89F2617326654A6100EC3B33 /* TextMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2617226654A6100EC3B33 /* TextMessage.swift */; };
+		89F2617526655B9600EC3B33 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2617426655B9600EC3B33 /* Quiz.swift */; };
+		89F2617726655C3300EC3B33 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2617626655C3300EC3B33 /* Message.swift */; };
+		89F261792665673800EC3B33 /* messagestest.json in Resources */ = {isa = PBXBuildFile; fileRef = 89F261782665673800EC3B33 /* messagestest.json */; };
+		89F2617C26663C2B00EC3B33 /* BotWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F2617B26663C2B00EC3B33 /* BotWrapper.swift */; };
+		89FEEAC92656C64800100BA8 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FEEAC82656C64800100BA8 /* LoginForm.swift */; };
+		89FEEACC2657CA7100100BA8 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FEEACB2657CA7100100BA8 /* Requests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +64,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8918DF5E265A9059009BD3CF /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		8918DF60265A9084009BD3CF /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		8918DF63265A90B5009BD3CF /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		8918DF65265F6020009BD3CF /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		8918DF68265F65C1009BD3CF /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		8996C885266E7E570047B527 /* UserContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContent.swift; sourceTree = "<group>"; };
+		8996C889266E81BE0047B527 /* subjects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = subjects.json; sourceTree = "<group>"; };
+		8996C88B266E821D0047B527 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		8996C88D266E823D0047B527 /* Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
 		89BA12AD265641CA00066AA7 /* EdtechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdtechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BA12B0265641CA00066AA7 /* EdtechAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtechAppApp.swift; sourceTree = "<group>"; };
 		89BA12B2265641CA00066AA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +85,27 @@
 		89BA12C9265641CD00066AA7 /* EdtechAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdtechAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BA12CD265641CD00066AA7 /* EdtechAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdtechAppUITests.swift; sourceTree = "<group>"; };
 		89BA12CF265641CD00066AA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BA12E12656896700066AA7 /* SignupForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupForm.swift; sourceTree = "<group>"; };
+		89BA12E42656AE1400066AA7 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		89BA12E62656B2A300066AA7 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		89EED13F265FAFF40079CAEF /* coursetest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coursetest.json; sourceTree = "<group>"; };
+		89EED142265FB20D0079CAEF /* CourseMenuItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMenuItemData.swift; sourceTree = "<group>"; };
+		89F26158265FD8A900EC3B33 /* CourseMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMenuItem.swift; sourceTree = "<group>"; };
+		89F2615E265FE19400EC3B33 /* icons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icons.json; sourceTree = "<group>"; };
+		89F26160265FE1D400EC3B33 /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		89F26161265FE1D400EC3B33 /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		89F26162265FE1D400EC3B33 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		89F26166265FE71C00EC3B33 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		89F26168265FEA6D00EC3B33 /* CourseMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseMenu.swift; sourceTree = "<group>"; };
+		89F2616A26651BAB00EC3B33 /* CourseSectionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionsMenu.swift; sourceTree = "<group>"; };
+		89F2616F266523C900EC3B33 /* WrappingStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappingStack.swift; sourceTree = "<group>"; };
+		89F2617226654A6100EC3B33 /* TextMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextMessage.swift; sourceTree = "<group>"; };
+		89F2617426655B9600EC3B33 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		89F2617626655C3300EC3B33 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		89F261782665673800EC3B33 /* messagestest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messagestest.json; sourceTree = "<group>"; };
+		89F2617B26663C2B00EC3B33 /* BotWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotWrapper.swift; sourceTree = "<group>"; };
+		89FEEAC82656C64800100BA8 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		89FEEACB2657CA7100100BA8 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F2615C265FE16500EC3B33 /* FASwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +134,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8918DF62265A90AA009BD3CF /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				8918DF63265A90B5009BD3CF /* Page.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		8918DF67265F65B4009BD3CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8918DF68265F65C1009BD3CF /* Spinner.swift */,
+				89F2616F266523C900EC3B33 /* WrappingStack.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		89BA12A4265641CA00066AA7 = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +174,15 @@
 		89BA12AF265641CA00066AA7 /* EdtechApp */ = {
 			isa = PBXGroup;
 			children = (
+				89EED141265FB1FF0079CAEF /* Models */,
+				89C11521265FAD54000B516A /* Ressources */,
+				89FEEACA2657CA6000100BA8 /* Helpers */,
+				89BA12DB2656420A00066AA7 /* Views */,
 				89BA12B0265641CA00066AA7 /* EdtechAppApp.swift */,
-				89BA12B2265641CA00066AA7 /* ContentView.swift */,
 				89BA12B4265641CD00066AA7 /* Assets.xcassets */,
 				89BA12B9265641CD00066AA7 /* Info.plist */,
 				89BA12B6265641CD00066AA7 /* Preview Content */,
+				89BA12E62656B2A300066AA7 /* extensions.swift */,
 			);
 			path = EdtechApp;
 			sourceTree = "<group>";
@@ -130,6 +213,111 @@
 			path = EdtechAppUITests;
 			sourceTree = "<group>";
 		};
+		89BA12DB2656420A00066AA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89BA12B2265641CA00066AA7 /* ContentView.swift */,
+				8918DF67265F65B4009BD3CF /* Utils */,
+				89BA12E32656AE0000066AA7 /* Pages */,
+				89BA12DF2656893000066AA7 /* Forms */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89BA12DF2656893000066AA7 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				89BA12E12656896700066AA7 /* SignupForm.swift */,
+				89FEEAC82656C64800100BA8 /* LoginForm.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		89BA12E32656AE0000066AA7 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				89F26157265FD89100EC3B33 /* Course */,
+				8918DF62265A90AA009BD3CF /* Templates */,
+				89BA12E42656AE1400066AA7 /* Welcome.swift */,
+				8918DF5E265A9059009BD3CF /* Signup.swift */,
+				8918DF60265A9084009BD3CF /* Login.swift */,
+				8996C885266E7E570047B527 /* UserContent.swift */,
+				8996C88D266E823D0047B527 /* Subjects.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		89C11521265FAD54000B516A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				89F2615D265FE17700EC3B33 /* Fontawesome */,
+				89EED13E265FAF970079CAEF /* Testdata */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		89EED13E265FAF970079CAEF /* Testdata */ = {
+			isa = PBXGroup;
+			children = (
+				89F261782665673800EC3B33 /* messagestest.json */,
+				8996C889266E81BE0047B527 /* subjects.json */,
+				89EED13F265FAFF40079CAEF /* coursetest.json */,
+			);
+			path = Testdata;
+			sourceTree = "<group>";
+		};
+		89EED141265FB1FF0079CAEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89EED142265FB20D0079CAEF /* CourseMenuItemData.swift */,
+				89F2617626655C3300EC3B33 /* Message.swift */,
+				8996C88B266E821D0047B527 /* Subject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89F26157265FD89100EC3B33 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				89F2617126654A4700EC3B33 /* Bot */,
+				8918DF65265F6020009BD3CF /* Course.swift */,
+				89F26158265FD8A900EC3B33 /* CourseMenuItem.swift */,
+				89F26168265FEA6D00EC3B33 /* CourseMenu.swift */,
+				89F2616A26651BAB00EC3B33 /* CourseSectionsMenu.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		89F2615D265FE17700EC3B33 /* Fontawesome */ = {
+			isa = PBXGroup;
+			children = (
+				89F2615E265FE19400EC3B33 /* icons.json */,
+				89F26160265FE1D400EC3B33 /* Font Awesome 5 Brands-Regular-400.otf */,
+				89F26161265FE1D400EC3B33 /* Font Awesome 5 Free-Regular-400.otf */,
+				89F26162265FE1D400EC3B33 /* Font Awesome 5 Free-Solid-900.otf */,
+			);
+			path = Fontawesome;
+			sourceTree = "<group>";
+		};
+		89F2617126654A4700EC3B33 /* Bot */ = {
+			isa = PBXGroup;
+			children = (
+				89F2617226654A6100EC3B33 /* TextMessage.swift */,
+				89F2617426655B9600EC3B33 /* Quiz.swift */,
+				89F2617B26663C2B00EC3B33 /* BotWrapper.swift */,
+			);
+			path = Bot;
+			sourceTree = "<group>";
+		};
+		89FEEACA2657CA6000100BA8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				89FEEACB2657CA7100100BA8 /* Requests.swift */,
+				89F26166265FE71C00EC3B33 /* Loader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +334,9 @@
 			dependencies = (
 			);
 			name = EdtechApp;
+			packageProductDependencies = (
+				89F2615B265FE16500EC3B33 /* FASwiftUI */,
+			);
 			productName = EdtechApp;
 			productReference = 89BA12AD265641CA00066AA7 /* EdtechApp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +408,9 @@
 				Base,
 			);
 			mainGroup = 89BA12A4265641CA00066AA7;
+			packageReferences = (
+				89F2615A265FE16400EC3B33 /* XCRemoteSwiftPackageReference "FASwiftUI" */,
+			);
 			productRefGroup = 89BA12AE265641CA00066AA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,8 +427,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F26163265FE1D400EC3B33 /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				89F261792665673800EC3B33 /* messagestest.json in Resources */,
+				89F26164265FE1D400EC3B33 /* Font Awesome 5 Free-Regular-400.otf in Resources */,
 				89BA12B8265641CD00066AA7 /* Preview Assets.xcassets in Resources */,
+				89EED140265FAFF40079CAEF /* coursetest.json in Resources */,
+				89F2615F265FE19400EC3B33 /* icons.json in Resources */,
 				89BA12B5265641CD00066AA7 /* Assets.xcassets in Resources */,
+				89F26165265FE1D400EC3B33 /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+				8996C88A266E81BE0047B527 /* subjects.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +460,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F26159265FD8A900EC3B33 /* CourseMenuItem.swift in Sources */,
+				8996C88C266E821D0047B527 /* Subject.swift in Sources */,
+				89F2617526655B9600EC3B33 /* Quiz.swift in Sources */,
+				89F26169265FEA6D00EC3B33 /* CourseMenu.swift in Sources */,
+				8996C88E266E823D0047B527 /* Subjects.swift in Sources */,
+				89EED143265FB20D0079CAEF /* CourseMenuItemData.swift in Sources */,
+				89BA12E72656B2A300066AA7 /* extensions.swift in Sources */,
+				8918DF66265F6020009BD3CF /* Course.swift in Sources */,
+				89FEEAC92656C64800100BA8 /* LoginForm.swift in Sources */,
+				89BA12E52656AE1400066AA7 /* Welcome.swift in Sources */,
+				89F26170266523C900EC3B33 /* WrappingStack.swift in Sources */,
+				89BA12E22656896700066AA7 /* SignupForm.swift in Sources */,
+				8918DF64265A90B5009BD3CF /* Page.swift in Sources */,
 				89BA12B3265641CA00066AA7 /* ContentView.swift in Sources */,
+				8996C886266E7E580047B527 /* UserContent.swift in Sources */,
+				89F2617326654A6100EC3B33 /* TextMessage.swift in Sources */,
+				89F2616B26651BAB00EC3B33 /* CourseSectionsMenu.swift in Sources */,
+				8918DF69265F65C1009BD3CF /* Spinner.swift in Sources */,
+				8918DF5F265A9059009BD3CF /* Signup.swift in Sources */,
+				8918DF61265A9084009BD3CF /* Login.swift in Sources */,
+				89FEEACC2657CA7100100BA8 /* Requests.swift in Sources */,
+				89F2617726655C3300EC3B33 /* Message.swift in Sources */,
+				89F2617C26663C2B00EC3B33 /* BotWrapper.swift in Sources */,
 				89BA12B1265641CA00066AA7 /* EdtechAppApp.swift in Sources */,
+				89F26167265FE71C00EC3B33 /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +798,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89F2615A265FE16400EC3B33 /* XCRemoteSwiftPackageReference "FASwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mattmaddux/FASwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89F2615B265FE16500EC3B33 /* FASwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89F2615A265FE16400EC3B33 /* XCRemoteSwiftPackageReference "FASwiftUI" */;
+			productName = FASwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89BA12A5265641CA00066AA7 /* Project object */;
 }

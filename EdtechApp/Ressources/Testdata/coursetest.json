@@ -1,0 +1,201 @@
+[
+  {
+      "id": 2,
+      "name": "Welcome",
+      "parent": 0,
+      "order": 0,
+      "done": true,
+      "children": []
+  },
+  {
+      "id": 9,
+      "name": "Brøkers størrelse",
+      "parent": 0,
+      "order": 7,
+      "done": false,
+      "children": [
+          {
+              "id": 5,
+              "name": "Quiz om hvad en br?k er",
+              "parent": 9,
+              "order": 3,
+              "done": true,
+              "children": [
+                  {
+                      "id": 3,
+                      "name": "Delen af det hele",
+                      "parent": 5,
+                      "order": 1,
+                      "done": true,
+                      "children": []
+                  },
+                  {
+                      "id": 4,
+                      "name": "Repr?sentere helt tal som en br?k",
+                      "parent": 5,
+                      "order": 2,
+                      "done": true,
+                      "children": []
+                  }
+              ]
+          },
+          {
+              "id": 6,
+              "name": "L?gge br?ker sammen",
+              "parent": 9,
+              "order": 4,
+              "done": true,
+              "children": []
+          },
+          {
+              "id": 7,
+              "name": "L?gge br?k til helt tal",
+              "parent": 9,
+              "order": 5,
+              "done": true,
+              "children": []
+          },
+          {
+              "id": 8,
+              "name": "Tr?kker br?ker fra hinanden",
+              "parent": 9,
+              "order": 6,
+              "done": false,
+              "children": []
+          }
+      ]
+  },
+  {
+      "id": 16,
+      "name": "Tr?kke br?k fra helt tal",
+      "parent": 0,
+      "order": 14,
+      "done": false,
+      "children": [
+          {
+              "id": 10,
+              "name": "Gange med br?ker",
+              "parent": 16,
+              "order": 8,
+              "done": false,
+              "children": []
+          },
+          {
+              "id": 11,
+              "name": "Gange br?k med helt tal",
+              "parent": 16,
+              "order": 9,
+              "done": false,
+              "children": []
+          },
+          {
+              "id": 14,
+              "name": "Dividere br?k med br?k",
+              "parent": 16,
+              "order": 12,
+              "done": false,
+              "children": [
+                  {
+                      "id": 12,
+                      "name": "Dividere br?k med helt tal",
+                      "parent": 14,
+                      "order": 10,
+                      "done": false,
+                      "children": []
+                  },
+                  {
+                      "id": 13,
+                      "name": "Forl?nge br?ker",
+                      "parent": 14,
+                      "order": 11,
+                      "done": false,
+                      "children": []
+                  }
+              ]
+          },
+          {
+              "id": 15,
+              "name": "Forkorte br?ker",
+              "parent": 16,
+              "order": 13,
+              "done": false,
+              "children": []
+          }
+      ]
+  },
+  {
+      "id": 17,
+      "name": "Dividere helt tal med br?k",
+      "parent": 0,
+      "order": 15,
+      "done": false,
+      "children": []
+  },
+  {
+      "id": 18,
+      "name": "Blandede tal",
+      "parent": 0,
+      "order": 16,
+      "done": false,
+      "children": []
+  },
+  {
+      "id": 22,
+      "name": "Fra blandet til til br?k",
+      "parent": 0,
+      "order": 20,
+      "done": false,
+      "children": [
+          {
+              "id": 19,
+              "name": "Omregning: Fra br?k til procent",
+              "parent": 22,
+              "order": 17,
+              "done": false,
+              "children": []
+          },
+          {
+              "id": 21,
+              "name": "Omregning: Fra procent til br?k",
+              "parent": 22,
+              "order": 19,
+              "done": false,
+              "children": [
+                  {
+                      "id": 20,
+                      "name": "Omregning: Fra br?k til decimaltal",
+                      "parent": 21,
+                      "order": 18,
+                      "done": false,
+                      "children": []
+                  }
+              ]
+          }
+      ]
+  },
+  {
+      "id": 23,
+      "name": "Omregning: Fra decimaltal til br?k",
+      "parent": 0,
+      "order": 21,
+      "done": false,
+      "children": []
+  },
+  {
+      "id": 25,
+      "name": "Omregning: Fra procent til decimaltal",
+      "parent": 0,
+      "order": 23,
+      "done": false,
+      "children": [
+          {
+              "id": 24,
+              "name": "Omregning: Fra decimaltal til procent",
+              "parent": 25,
+              "order": 22,
+              "done": false,
+              "children": []
+          }
+      ]
+  }
+]

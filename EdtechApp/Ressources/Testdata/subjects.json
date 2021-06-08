@@ -1,0 +1,80 @@
+[
+    {
+        "title": "chemistry",
+        "color": "blue",
+        "courses": [
+            {
+                "title": "2D Vektorer",
+                "status": 0.0
+            },
+            {
+                "title": "3D Vektorer",
+                "status": 0.0
+            },
+            {
+                "title": "Brøker",
+                "status": 0.0
+            },
+            {
+                "title": "Division",
+                "status": 0.0
+            },
+            {
+                "title": "Potensregning",
+                "status": 0.0
+            }
+        ]
+    },
+    {
+        "title": "math",
+        "color": "blue",
+        "courses": [
+            {
+                "title": "2D Vektorer",
+                "status": 0.0
+            },
+            {
+                "title": "3D Vektorer",
+                "status": 0.0
+            },
+            {
+                "title": "Brøker",
+                "status": 0.25
+            },
+            {
+                "title": "Division",
+                "status": 0.0
+            },
+            {
+                "title": "Potensregning",
+                "status": 1.0
+            }
+        ]
+    },
+    {
+        "title": "physics",
+        "color": "",
+        "courses": [
+            {
+                "title": "2D Vektorer",
+                "status": 0.0
+            },
+            {
+                "title": "3D Vektorer",
+                "status": 0.0
+            },
+            {
+                "title": "Brøker",
+                "status": 0.0
+            },
+            {
+                "title": "Division",
+                "status": 0.0
+            },
+            {
+                "title": "Potensregning",
+                "status": 0.0
+            }
+        ]
+    }
+]
